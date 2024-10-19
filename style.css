@@ -1,0 +1,52 @@
+.Navbar{
+  background-color:#8477CD;  
+  display: flex;
+  flex:;
+}
+.navbar {
+  width: 100%; 
+  padding: 0; 
+  margin: 0; 
+  
+}
+
+.container1 {
+  width: 100%;
+  display: flex;
+  
+}
+
+.nav-link.Pawpalandia {
+  margin-right: 7%; 
+  color: #f9fafc; 
+  font-weight: bolder;
+  font-size: 3rem;
+  
+}
+.search-bar{
+  width: 100%;
+  margin-right: 3rem;
+}
+.input-group{
+  min-height: 3.5rem;
+
+}
+.icon-div{
+  display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    margin-right: 20px;
+    color:#f9fafc;
+}
+
+.header2{
+  background-color: #f9fafc;
+  display: flex;
+  justify-content: center;
+
+}
+.btn-1{
+  color:#8477CD;
+  margin: 7px;
+  text-decoration: none;
+}
