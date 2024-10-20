@@ -1,0 +1,82 @@
+/* Estilo general del body */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Título principal */
+h2 { 
+    font-weight: bold; 
+    font-family: 'Nunito', sans-serif; /* Cambiar a la fuente Nunito */
+    font-size: 3rem; /* Tamaño grande para hacerlo destacable */
+    color: black; /* Color del texto */
+    background-color: #dad8f8; /* Fondo oscuro, elegante */
+    padding: 20px 40px; /* Espaciado interno más grande */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    letter-spacing: 2px; /* Espaciado entre letras para un toque moderno */
+    text-transform: uppercase; /* Texto en mayúsculas para más impacto */
+}
+
+/* Efecto decorativo adicional al borde inferior */
+h2::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 5px;
+    background-color: #da9df7; /* Línea roja brillante debajo del título */
+    margin: 15px auto 0; /* Centrado y con margen para separar */
+    border-radius: 5px; /* Bordes redondeados para que se vea más suave */
+}
+
+/* Estilos de las tarjetas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out; /* Cambia el color al pasar el mouse */
+}
+
+/* Cambia el color de fondo al pasar el mouse sobre la tarjeta */
+.card:hover {
+    background-color: #dcdcdc; /* Color de fondo al hacer hover */
+}
+
+/* Imagen ajustada */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    font-size: 2rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+h5 {
+    font-weight: bold; 
+}
