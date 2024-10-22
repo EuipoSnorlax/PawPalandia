@@ -82,7 +82,7 @@ function validateEmail(email) {
 }
 
 function validateTelephone(telephone) {
-    const telPattern = /^\d{10}$/; // Adjust pattern according to your requirements (e.g., regex for specific formats)
+    const telPattern = /^\d{10}$/;
     return telPattern.test(telephone);
 }
 
@@ -92,14 +92,13 @@ function sendEmail() {
     const telephone = document.getElementById('telephone').value;
     const message = document.getElementById('message').value;
 
-    // Here you would normally send the email using a backend service or an API
-    // For this example, we will just log the data to the console
+    // Console
     console.log("Sending email with the following data:");
     console.log(`Name: ${name}`);
     console.log(`Email: ${email}`);
     console.log(`Telephone: ${telephone}`);
     console.log(`Message: ${message}`);
 
-    // Clear the form after sending
+    // Clear the form after sending... Allons-y !!!
     document.getElementById('contactForm').reset();
 }
