@@ -1,0 +1,50 @@
+/* --- Articles section--- */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    width: auto;
+}
+
+.container-text{
+    padding: 10px;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column; 
+    align-items:flex-start; 
+    margin: 10px; 
+}
+
+.article-img {
+    width: 270px;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.article-text{
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: small;
+    z-index: 2; 
+}
+
+.over-text{
+    position: absolute;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(3, 3, 3);
+    background-color: rgba(243, 236, 236, 0.103);;
+    text-align: center;
+    padding: 100px;
+    padding-left: 15px;
+}
